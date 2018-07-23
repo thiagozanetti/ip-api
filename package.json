@@ -1,5 +1,5 @@
 {
-  "name": "ip-api",
+  "name": "ip-api-fetch-info",
   "version": "0.0.1",
   "description": "A client for the ip-api.com",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thiagozanetti/ip-api.git"
+    "url": "git+https://github.com/thiagozanetti/ip-api-fetch-info.git"
   },
   "keywords": [
     "ip-api",
@@ -19,7 +19,7 @@
   "author": "Thiago Zanetti <thiago.project@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thiagozanetti/ip-api/issues"
+    "url": "https://github.com/thiagozanetti/ip-api-fetch-info/issues"
   },
-  "homepage": "https://github.com/thiagozanetti/ip-api#readme"
+  "homepage": "https://github.com/thiagozanetti/ip-api-fetch-info#readme"
 }
