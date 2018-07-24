@@ -4,7 +4,9 @@
   "description": "A client for the ip-api.com",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/index.js -o index.js",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
