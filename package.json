@@ -1,6 +1,6 @@
 {
   "name": "ip-api-fetch-info",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A client for the ip-api.com",
   "main": "index.js",
   "scripts": {
@@ -24,9 +24,9 @@
     "url": "https://github.com/thiagozanetti/ip-api-fetch-info/issues"
   },
   "homepage": "https://github.com/thiagozanetti/ip-api-fetch-info#readme",
-  "dependencies": {},
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6"
   }
 }

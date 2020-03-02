@@ -31,9 +31,9 @@ declare namespace ipApi {
   export type XMLLocation = XMLDocument;
   export type CSVLocation = string;
   
-  export function csv(ip: string): Promise<CSVLocation | FailResponse>;
-  export function json(ip: string): Promise<JSONLocation | FailResponse>;
-  export function xml(ip: string): Promise<XMLLocation | FailResponse>;  
+  export function asCsv(ip: string): Promise<CSVLocation | FailResponse>;
+  export function asJson(ip: string): Promise<JSONLocation | FailResponse>;
+  export function asXml(ip: string): Promise<XMLLocation | FailResponse>;
 }
 
 export = ipApi;
